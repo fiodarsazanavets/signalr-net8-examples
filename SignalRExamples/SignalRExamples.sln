@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SsoIdp", "SsoIdp\SsoIdp.csproj", "{66062DA9-3DAA-4242-A1D4-1E9921710263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSignalRApp", "BasicSignalRApp\BasicSignalRApp.csproj", "{C4B96762-3688-47F4-A1B8-E0EAEEDB5DB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSignalRApp", "BasicSignalRApp\BasicSignalRApp.csproj", "{C4B96762-3688-47F4-A1B8-E0EAEEDB5DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication", "ChatApplication\ChatApplication.csproj", "{8218CABD-8430-41E5-B955-C24783F5FE70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorChatClient", "BlazorChatClient\BlazorChatClient.csproj", "{51F607B5-6E0F-482B-980E-335C6B0A7A7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C4B96762-3688-47F4-A1B8-E0EAEEDB5DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B96762-3688-47F4-A1B8-E0EAEEDB5DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4B96762-3688-47F4-A1B8-E0EAEEDB5DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8218CABD-8430-41E5-B955-C24783F5FE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8218CABD-8430-41E5-B955-C24783F5FE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8218CABD-8430-41E5-B955-C24783F5FE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8218CABD-8430-41E5-B955-C24783F5FE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
