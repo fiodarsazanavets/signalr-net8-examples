@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication", "ChatAppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorChatClient", "BlazorChatClient\BlazorChatClient.csproj", "{51F607B5-6E0F-482B-980E-335C6B0A7A7B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StronglyTypesChatApplication", "StronglyTypesChatApplication\StronglyTypesChatApplication.csproj", "{E2FF323C-763F-45B5-9983-7223297B8ED0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51F607B5-6E0F-482B-980E-335C6B0A7A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FF323C-763F-45B5-9983-7223297B8ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FF323C-763F-45B5-9983-7223297B8ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FF323C-763F-45B5-9983-7223297B8ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FF323C-763F-45B5-9983-7223297B8ED0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
