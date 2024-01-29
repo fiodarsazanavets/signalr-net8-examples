@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StronglyTypedIotDeviceClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingDevicesManager", "StreamingDevicesManager\StreamingDevicesManager.csproj", "{76BAF5CE-9B16-4E51-9071-A6D6F10D86DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingIotDeviceClient", "StreamingIotDeviceClient\StreamingIotDeviceClient.csproj", "{9A2580B6-F031-4203-9A83-077CFCDDC7BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{76BAF5CE-9B16-4E51-9071-A6D6F10D86DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76BAF5CE-9B16-4E51-9071-A6D6F10D86DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76BAF5CE-9B16-4E51-9071-A6D6F10D86DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2580B6-F031-4203-9A83-077CFCDDC7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2580B6-F031-4203-9A83-077CFCDDC7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2580B6-F031-4203-9A83-077CFCDDC7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2580B6-F031-4203-9A83-077CFCDDC7BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
