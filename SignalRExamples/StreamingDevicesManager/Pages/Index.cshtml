@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row" style="padding-top: 50px;">
+    <div class="col-md-4">
+        <div class="control-group">
+            <button id="btn-restart">Restart Device Manager</button>
+        </div>
+    </div>
+
+    <div class="col-md-7">
+        <p><b>Status Updates</b></p>
+        <pre id="devices-panel"></pre>
+    </div>
+</div>
