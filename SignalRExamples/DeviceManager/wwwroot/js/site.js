@@ -4,12 +4,15 @@
     .build();
 
 connection.on("ReceivePayload", (payload) => {
-    $('#devices-panel').prepend($('<div />').append(`Device ${payload.deviceId} connected`));
-    $('#devices-panel').prepend($('<div />').append(`Firmware version ${payload.version}`));
+    $('#devices-panel').append($('<div />')
+        .append(`Device ${payload.deviceId} connected`));
+    $('#devices-panel').append($('<div />')
+        .append(`Firmware version ${payload.version}`));
 });
 
 connection.on("ReceiveDisconnection", (deviceId) => {
-    $('#devices-panel').prepend($('<div />').append(`Device ${deviceId} disconnected`));
+    $('#devices-panel').append($('<div />')
+        .append(`Device ${deviceId} disconnected`));
 });
 
 async function start() {
