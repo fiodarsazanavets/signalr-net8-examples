@@ -13,6 +13,9 @@ hubConnection.On<DevicePayload>("ReceivePayload",
 hubConnection.On<string>("ReceiveDisconnection",
     deviceId => Console.WriteLine($"Device {deviceId} disconnected"));
 
+hubConnection.On<string>("ReceiveCommand",
+    commandName => Console.WriteLine($"Command '{commandName}' executed"));
+
 await hubConnection.StartAsync();
 
 DevicePayload payload = new()

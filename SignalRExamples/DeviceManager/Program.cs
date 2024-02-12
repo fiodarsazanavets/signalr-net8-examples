@@ -1,9 +1,11 @@
 using DeviceManager.Hubs;
+using DeviceManager.Workers;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
+builder.Services.AddHostedService<DeviceCommandService>();
 
 var app = builder.Build();
 
