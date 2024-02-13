@@ -37,6 +37,7 @@
     {
         hubConnection = new HubConnectionBuilder()
             .WithUrl("https://localhost:5001/chatHub")
+            .WithAutomaticReconnect()
             .Build();
 
         hubConnection.On<string>("ReceiveMessage", (message) =>

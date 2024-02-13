@@ -1,5 +1,6 @@
 ﻿const connection = new signalR.HubConnectionBuilder()
     .withUrl("/learningHub")
+    .withAutomaticReconnect()
     .configureLogging(signalR.LogLevel.Information)
     .build();
 
